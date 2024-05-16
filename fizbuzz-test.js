@@ -19,3 +19,12 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+// Algorithm:
+// 1. Buat loop yang mencetak angka 1-100
+// 2. Jika i % 3 === 0 dan i % 5 === 0, maka outputnya FizzBuzz
+// 3. Jika i % 3 === 0, maka outputnya Fizz
+// 4. Jika i % 5 === 0, maka outputnya Buzz
+// 5. Jika tidak memenuhi kondisi di atas, maka outputnya angka i
+// 6. Ulangi langkah no 2-5 sampai i = 100
+// 7. Selesai
